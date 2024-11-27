@@ -1,0 +1,222 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(./img/matefinishbg.jpeg);
+}
+.appbar{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.leftbar{
+    margin-left: 60px;
+    display:flex;
+    h2{
+        margin-top: 10px;
+        color: red;
+        font-family: 'lerku-regular';
+        font-size: 40px;
+        font-weight: 100;
+    }
+    img{
+        margin-top: 5px;
+    }
+}
+.rightbar{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    margin-right: 60px;
+    span{
+        color: rgb(199, 196, 196);
+        font-family: 'lerku-regular';
+        padding: 25px;
+        font-size: 20px;
+    }
+    span:hover{
+        color: red;
+        cursor: pointer;
+        transition: 300ms;
+    }
+}
+.foodquality{
+    margin-left: 13%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    .fqleft{
+        padding-left: 40px;
+        span{
+            color: red;
+            font-family:'lerku-regular';
+            border-bottom: 2px solid rgb(204, 46, 46);
+            font-size: 20px;
+        }
+        p{
+            color: white;
+            width: 500px;
+            font-size: 15px;
+            font-family:'lerku-regular';
+            padding: 20px;
+        }
+    }
+    .fqright{
+        img{
+            height: 300px;
+            width: 500px;
+            margin-left: 140px;
+            margin-top: 40px;
+            border: 2px solid red;
+            box-shadow: 3px 4px 60px 2px rgb(219, 65, 65);
+        }
+    }
+}
+.services{
+    margin-left: 17%;
+    display: flex;
+    .serleft{
+        span{
+            color: red;
+            font-family:'lerku-regular';
+            border-bottom: 2px solid rgb(204, 46, 46);
+            font-size: 20px;
+        }
+        p{
+            color: white;
+            width: 500px;
+            font-size: 15px;
+            font-family:'lerku-regular';
+            padding: 20px;
+        }
+    }
+    .serright{
+        img{
+            height: 300px;
+            width: 500px;
+            margin-right: 70px;
+            margin-top: 90px;
+            border: 2px solid red;
+            box-shadow: 3px 4px 60px 2px rgb(219, 65, 65);
+        }
+    }
+}
+.offer{
+    background-color: black;
+    opacity: 0.7;
+    margin-left: 400px;
+    margin-top: 30px;
+    height: fit-content;
+    width: 900px;
+    border: 2px solid white;
+    border-radius: 20px;
+    h2{
+        color: red;
+        font-family: 'lerku-regular';
+        font-size: 20px;
+        text-align: center;
+    }
+    button{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 7px;
+        padding-top: 7px;
+        background-color: azure;
+        border-radius: 8px;
+        margin: 3px;
+        font-size: 15;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: red;
+        color: black;
+        transition-duration: 300ms;
+    }
+}
+.card{
+    display: grid;
+    background-color: aliceblue;
+    border: 2px solid rgb(103, 102, 102);
+    max-width: fit-content;
+    text-align: center;
+    border-radius: 8px;
+    span{
+        font-size: 15px;
+        font-family:'lerku-regular';
+    }
+    button{
+        width: 110px;
+        margin-left: 70px;
+    }
+}
+.contact{
+    margin-top: 150px;
+    background-color: rgb(250, 7, 7);
+    display: flex;
+    height: fit-content;
+   
+}
+.logname{
+    background-color: black;
+    width: 33.3%;
+    height: 450px;
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    h1{
+        font-size: 30px;
+        font-family:'lerku-regular';
+        color: rgb(253, 5, 5);
+    }
+    h2{
+        font-size: 15px;
+        font-family:'lerku-regular';
+        color: rgb(255, 255, 255);
+    }
+
+}
+.socialmedia{
+    margin-left: 160px;
+    
+    h2{
+        font-size: 23px;
+        font-family:'lerku-regular';
+        margin-bottom: 0%;
+    }
+    h4{
+        font-size: 5px;
+        font-family:'lerku-regular';
+    }
+    div{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+a{
+    text-decoration: none;
+}
+.location{
+    margin-left: 100px;
+    h2{
+        font-size: 23px;
+        font-family:'lerku-regular';
+    }
+}
+.copyrights{
+    height: 5vh;
+    background-color: red;
+    border-top: 1px solid white;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+/* .rightbar:hover{
+    cursor: pointer;
+    span{
+        border: 2px solid red;
+    }
+} */
